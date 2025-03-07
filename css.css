@@ -1,0 +1,98 @@
+@font-face {
+   font-family: odinFont;
+   src: url('./Norse-Bold.otf')
+}
+.root {
+   position: relative;
+}
+
+.container {
+   display: flex;
+}
+
+.background-photo-container {
+   position: relative;
+   flex: 1.25;
+   height: 100vh;
+}
+
+.background-photo {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+}
+
+.floating-logo-container {
+   position: absolute;
+   background-color: black;
+   opacity: 0.6;
+   color: white;
+   width: 100%;
+   top: 12em;
+   text-align: center;
+   padding: 20px 0 0 0;
+}
+
+.logo {
+   display: inline-block;
+}
+
+.logo-image {
+   width: 50px;
+   height: auto;
+}
+
+.logo-text {
+   display: inline-block;
+   font-family: odinFont;
+   font-size: 5rem;
+}
+
+.log-in-container {
+   flex: 2;
+   background-color: #E5E7EB;
+}
+
+.maintext  {
+   margin-top: 7rem;
+   font-weight: bold;
+   font-size: 2rem;
+   padding-left: 50px;
+}
+
+.log-in {
+   box-shadow: 1px 2px grey;
+   border: 1px solid;
+}
+
+form {
+   border-color:#E5E7EB;
+}
+
+.form-row {
+   display: flex;
+   margin-bottom: 10px;
+   justify-content: space-around;
+}
+
+.form-row label {
+   text-align: left;
+   width: 45%;
+}
+
+.form-row input {
+   width: 45%;
+   border: 1px solid;
+}
+
+input:invaild {
+   border: 2px solid red;
+}
+
+.form-row input:focus {
+   border: 2px solid blue;
+}
+
+button {
+
+}
